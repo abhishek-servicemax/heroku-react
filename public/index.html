@@ -36,5 +36,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- jQuery CDN -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery CDN -->
+     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+     <!-- Bootstrap Js CDN -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+     <script type="text/javascript">
+         $(document).ready(function () {
+             $('#sidebarCollapse').on('click', function () {
+                 $('#sidebar').toggleClass('active');
+             });
+         });
+     </script>
   </body>
 </html>
